@@ -120,8 +120,8 @@ if (isset($_POST['btn_forget'])) {
                 $link = "http://localhost/website/verify_otp.php?email=$em&token=$token";
                 //echo $link;
                 $mail = new PHPMailer();
-                $headers = 'From: Tour & Travel Egency <kkhimsuriya805@rku.ac.in>' . "\r\n";
-                $headers .= 'Reply-To: <kkhimsuriya805@rku.ac.in>' . "\r\n";
+                $headers = 'From: Tour & Travel Egency <amandhat276@rku.ac.in>' . "\r\n";
+                $headers .= 'Reply-To: <amandhat276@rku.ac.in>' . "\r\n";
                 $headers .= 'X-Mailer: PHP/' . phpversion();
                 $headers .= "MIME-Version: 1.0\r\n";
                 $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
@@ -144,9 +144,9 @@ if (isset($_POST['btn_forget'])) {
                 $mail->SMTPSecure = "tls";         // sets the prefix to the servier
                 $mail->Host       = 'smtp.gmail.com';      // sets GMAIL as the SMTP server
                 $mail->Port       = 587;                   // set the SMTP port for the GMAIL server
-                $mail->Username   = "kkhimsuriya805@rku.ac.in";  // GMAIL username(from)
+                $mail->Username   = "amandhat276@rku.ac.in";  // GMAIL username(from)
                 $mail->Password   = "K0027389";            // GMAIL password(from)
-                $mail->SetFrom('kkhimsuriya805@rku.ac.in', 'Tour & Travel'); //from
+                $mail->SetFrom('amandhat276@rku.ac.in', 'Tour & Travel'); //from
                 $mail->AddReplyTo($em, "Tour & Travel "); //to
                 $mail->Subject    = "Password reset link for Tour & Travel";
                 $mail->AltBody    = "To view the message, please use an HTML compatible email viewer!";

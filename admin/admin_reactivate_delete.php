@@ -35,9 +35,9 @@ $mail->SMTPAuth   = true;                  // enable SMTP authentication
 $mail->SMTPSecure = "tls";                 // sets the prefix to the servier
 $mail->Host       = 'smtp.gmail.com';      // sets GMAIL as the SMTP server
 $mail->Port       = 587;                   // set the SMTP port for the GMAIL server
-$mail->Username   = "janki.kansagra@rku.ac.in";  // GMAIL username(from)
+$mail->Username   = "amandhat276@rku.ac.in";  // GMAIL username(from)
 $mail->Password   = "*****************";            // GMAIL password(from)
-$mail->SetFrom('janki.kansagra@rku.ac.in', 'Student Demo Website'); //from
+$mail->SetFrom('amandhat276@rku.ac.in', 'Student Demo Website'); //from
 $mail->AddReplyTo($em, "Student Demo Website"); //to
 $mail->Subject    = "Account activation link for Student Demo Website";
 $mail->AltBody    = "To view the message, please use an HTML compatible email viewer!";
