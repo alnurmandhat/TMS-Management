@@ -1,0 +1,12 @@
+<?php
+include_once("../conection.php");
+session_start();
+mysqli_select_db($con,"tms");
+unset($_SESSION['panel_user']);
+unset($_SESSION['panel_pwd']);
+?>
+<script>
+   window.location="../home.php";
+</script>
+<?php
+?>

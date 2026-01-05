@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+header .header{
+  background-color: #fff;
+  height: 45px;
+}
+header a img{
+  width: 134px;
+margin-top: 4px;
+}
+.login-page {
+  width: 460px;
+  padding:5px; 
+  margin: auto;
+  /* margin-bottom:-10px; */
+}
+.login-page .form .login{
+  margin-top: -20px;
+  margin-bottom: 26px;
+}
+.form-title{
+
+  color:#eb5c14;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 50px;
+  padding: 45px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  /* background: rgb(226, 219, 219);   */
+  width: 100%;
+  border: 1px solid;
+  border-color: eb5c14;
+  border-radius: 10px;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+/* .form input:hover{
+  border:1px solid black;
+} */
+.form .login-btn{
+  /* display: inline-block; */
+  margin-top: 1rem;
+  background:#eb5c14;
+  color:#fff;
+  padding:.6rem ;
+  border:.1rem solid #eb5c14;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size:20px;
+  /* font-size: 1.7rem; */
+}
+/* .form .login-btn:hover{
+  background:rgba(255, 165, 0,.2);
+  color:#ef943a;
+} */
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 18px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
