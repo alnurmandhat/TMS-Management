@@ -80,8 +80,8 @@ if(isset($_POST['btn']))
     {
         $link = "http://localhost/website/account_activation.php?email=$em";
         $mail = new PHPMailer();
-        $headers = 'From: Tour & Travel Website <kkhimsuriya805@rku.ac.in>' . "\r\n";
-        $headers .= 'Reply-To: <kkhimsuriya805@rku.ac.in>' . "\r\n";
+        $headers = 'From: Tour & Travel Website <amandhat276@rku.ac.in>' . "\r\n";
+        $headers .= 'Reply-To: <amandhat276@rku.ac.in>' . "\r\n";
         $headers .= 'X-Mailer: PHP/' . phpversion();
         $headers .= "MIME-Version: 1.0\r\n";
         $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
@@ -105,9 +105,9 @@ if(isset($_POST['btn']))
         $mail->SMTPSecure = "tls";                 // sets the prefix to the servier
         $mail->Host       = 'smtp.gmail.com';      // sets GMAIL as the SMTP server
         $mail->Port       = 587;                   // set the SMTP port for the GMAIL server
-        $mail->Username   = "kkhimsuriya805@rku.ac.in";  // GMAIL username(from)
+        $mail->Username   = "amandhat276@rku.ac.in";  // GMAIL username(from)
         $mail->Password   = "K0027389";            // GMAIL password(from)
-        $mail->SetFrom('kkhimsuriya805@rku.ac.in', 'Tour & Travel Website'); //from
+        $mail->SetFrom('amandhat276@rku.ac.in', 'Tour & Travel Website'); //from
         $mail->AddReplyTo($em, "Tour & Travel Website"); //to
         $mail->Subject    = "Account activation link for Tour & Travel Website";
         $mail->AltBody    = "To view the message, please use an HTML compatible email viewer!";
